@@ -14,7 +14,7 @@ jobs:
       - name: Set up Node
         uses: actions/setup-node@v4
         with:
-          node-version: 22.14.1  # or whatever you're using
+          node-version: 22.14.0  # or whatever you're using
 
       - run: npm install
       - run: npm run build
