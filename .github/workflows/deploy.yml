@@ -17,10 +17,12 @@ jobs:
           node-version: 22.14.0  # or whatever you're usin
 
       - run: npm install
+        working-directory: ./public
       - run: npm run build
+        working-directory: ./public
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./build
+          publish_dir: ./public/build
