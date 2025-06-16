@@ -14,7 +14,7 @@ jobs:
       - name: Set up Node
         uses: actions/setup-node@v4
         with:
-          node-version: 22.14.0  # or whatever you're usin
+          node-version: 22.14.0  # or whatever you're usi
 
       - run: npm install
         working-directory: ./public
