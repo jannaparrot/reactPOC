@@ -17,9 +17,9 @@ jobs:
           node-version: 22.14.0  # or whatever you're usi
 
       - run: npm install
-        working-directory: ./public
+        #working-directory: ./public
       - run: npm run build
-        working-directory: ./public
+        #working-directory: ./public
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
