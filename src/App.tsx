@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import './App.css';
-import { Box, TextField, Typography } from '@mui/material';
+import { Box, Typography } from '@mui/material';
 import { InputSource } from './components/InputSource';
-
+//just a wrapper-- shouldn't know anything about website, which is why stuff is split into components
 function App() {
   
   const [sourceText, setSourceText] = useState<string>('');
