@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import './App.css';
-import { Box, Typography } from '@mui/material';
 import { InputSource } from './components/InputSource';
 import { BelowBox } from './BelowBox';
 //just a wrapper-- shouldn't know anything about website, which is why stuff is split into components
